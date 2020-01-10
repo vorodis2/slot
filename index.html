@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<title>slot</title>	
+
+
+
+
+<script src='src/libMy/divLib.js'></script>
+<script src='src/lib/babylon.js'></script>
+<script src='src/lib/cannon.js'></script>
+<script src='build/build.js'></script>
+
+
+<script>
+
+	var trace = window.console.log.bind(window.console);
+	var dcmParam;	
+
+
+	function init () {
+
+		
+		dcmParam=new DCM();		
+		main=new Main();						
+	
+	}
+
+	
+
+</script>
+
+<style type="text/css">
+	#stats { position: absolute; top:0; left: 200px; }
+</style>
+
+</head>
+<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<body onload="init()">
+	<video id="video" autoplay playsinline></video>	
+</body></html>
