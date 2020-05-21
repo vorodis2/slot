@@ -1,7 +1,6 @@
 
 
 
-
 export class Menu  {
   	constructor(_word) {  		
   		this.type="Menu";
@@ -94,7 +93,7 @@ export class Menu  {
         wind.height=yy+32
         for (var i = 0; i < arr.length; i++) {
             arr[i].width=190
-        }    
+        }
 
 
         this.funSors= function (v){
@@ -118,7 +117,6 @@ export class Menu  {
     get points() { 
         return  this._points;
     }
-
 
 
 
